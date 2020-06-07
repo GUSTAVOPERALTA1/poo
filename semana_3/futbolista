@@ -1,0 +1,42 @@
+class Futbolista:
+
+    #atributos#
+    numero=9
+    posicion="Delantero"
+    tennis="Nike"
+    equipo="Necaxa"
+    color_uniforme="Rojo"
+
+
+    #metodos#
+    def patear(self):
+        print("El futbolista patea con fuerza")
+    def anotar(self):
+        print("El jugador ha anotado 23 goles")
+
+class Defensa(Futbolista):
+    #atributos#
+    edad=18
+    sexo="Femenino"
+
+    #metodo#
+    def defender(self):
+        print("Ella es muy buena defendiendo")
+
+  
+
+portero=Defensa()
+print(portero.numero)
+print(portero.posicion)
+print(portero.tennis)
+print(portero.equipo)
+print(portero.colorUniforme)
+print(portero.edad)
+print(portero.sexo)
+
+portero.patear()
+portero.anotar()
+portero.defender()
+
+
+

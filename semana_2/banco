@@ -1,0 +1,32 @@
+
+class Banco:
+  cajas= 3
+  cajeros= 4
+  empleados= 20
+  policias= 2
+  practicajas= 3
+  oficinas= 5
+  puertas= 5
+  
+    
+  def serban(self):
+    print("Banco Banamex")
+  def pagos(self):
+    print("pagos")
+  def depositos(self):
+    print("depositos")
+
+  def __init__(self):
+    print("Banco Banamex")
+    print(self.cajas)
+    print(self.cajeros)
+    print(self.empleados)
+    print(self.policias)
+    print(self.practicajas)
+    print(self.oficinas)
+    print(self.puertas)
+    
+objeto = Banco()
+objeto.serban()
+objeto.pagos()
+objeto.depositos()

@@ -1,0 +1,38 @@
+class Coche:
+
+    #atributos#
+    marca="Ford"
+    volante=1
+    acientos=5
+    ruedas=4
+    retrovisores=2
+
+    #metodos#
+    def acelerar(self):
+        print("El auto es muy rapido")
+    def frenar(self):
+        print("Frenar")
+
+class Tsuru(Coche):
+    #atributos#
+    puertas=4
+    viseras=2
+
+    #metodo#
+    def viajar(self):
+        print("Puedes viajar distancias considerables")
+
+  
+
+bochito=Tsuru()
+print(bochito.marca)
+print(bochito.volante)
+print(bochito.acientos)
+print(bochito.ruedas)
+print(bochito.retrovisores)
+print(bochito.puertas)
+print(bochito.viseras)
+
+bochito.acelerar()
+bochito.frenar()
+bochito.viajar()

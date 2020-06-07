@@ -1,0 +1,33 @@
+class coche:
+  llantas=4
+  motor=1
+  puertas=4
+  color="azul"
+  faros=2
+  ventanas=4
+  retrovisores=2
+  volante=1
+  
+
+  def arrancar(self):
+    print("Arrancar")
+  def frenar(self):
+    print("Frenar")
+  def acelerar(self):
+    print("Acelerar")
+  
+  def __init__(self):
+    print("Bochito")
+    print(self.llantas)
+    print(self.motor)
+    print(self.puertas)
+    print(self.color)
+    print(self.faros)
+    print(self.ventanas)
+    print(self.retrovisores)
+    print(self.volante)
+
+objeto= coche()
+objeto.arrancar()
+objeto.frenar()
+objeto.acelerar()

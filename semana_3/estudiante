@@ -1,0 +1,40 @@
+class Estudiante:
+
+    #atributos#
+    materias=9
+    color_uniforme="Rojo"
+    escuela="UTEC"
+    maestros=8
+    aula=23
+
+
+    #metodos#
+    def estudiar(self):
+        print("El alumno estudia para los examanes")
+    def aprender(self):
+        print("El alumno aprende de sus maestros")
+
+class Gustavo(Estudiante):
+    #atributos#
+    edad=18
+    materia_fav="Historia"
+
+    #metodo#
+    def leer(self):
+        print("Gustavo puede leer rapido")
+
+  
+
+angelica=Gustavo()
+print(angelica.materias)
+print(angelica.color_uniforme)
+print(angelica.escuela)
+print(angelica.maestros)
+print(angelica.aula)
+print(angelica.edad)
+print(angelica.materia_fav)
+
+
+angelica.estudiar()
+angelica.aprender()
+angelica.leer()

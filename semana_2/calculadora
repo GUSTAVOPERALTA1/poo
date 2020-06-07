@@ -1,0 +1,26 @@
+class calculadora:
+    botones=29
+    tamaño="20 cm"
+    color="negro"
+    marca="Casio"
+    pantalla=1
+    bateria=3
+    
+
+    def jugar(self):
+        print("Hacer frases graciosas con los numeros")
+    def calcular(self):
+        print("Hacer calculos")
+  
+    def __init__(self):
+        print("Calculadora Cientifica")
+        print(self.botones)
+        print(self.tamaño)
+        print(self.color)
+        print(self.marca)
+        print(self.pantalla)
+        print(self.bateria)
+
+objeto =calculadora()
+objeto.jugar()
+objeto.calcular()

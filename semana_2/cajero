@@ -1,0 +1,30 @@
+class cajero :
+  teclas=6
+  numeros=9
+  sensor=1
+  bandeja=2
+  pantalla=1
+  camara=1
+  color="Gris"
+  
+
+  def deposito(self):
+    print("Depositar dinero")
+  def retiros(self):
+    print("Retirar nuestro dinero")
+  def mostrar_saldo(self):
+    print("consultar nuestro saldo")
+
+  def __init__(self):
+    print(self.teclas)
+    print(self.numeros)
+    print(self.sensor)
+    print(self.bandeja)
+    print(self.pantalla)
+    print(self.camara)
+    print(self.color)
+
+objeto =cajero()
+objeto.deposito()
+objeto.retiros()
+objeto.mostrar_saldo()

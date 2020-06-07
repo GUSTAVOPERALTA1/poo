@@ -1,0 +1,39 @@
+class Serie:
+
+    #atributos#
+    personajes=30
+    canal="Warner"
+    genero="Accion"
+    temporadas="3 temporadas"
+    capitulos="60 capitulos"
+
+
+    #metodos#
+    def entretener(self):
+        print("La serie es muy divertida")
+    def intrigar(self):
+        print("La trama es buena")
+
+class Daredevil(Serie):
+    #atributos#
+    protagonista="Daredevil"
+    estado="Cancelada"
+
+    #metodo#
+    def divertir(self):
+        print("La serie es muy buena")
+
+  
+
+twd=Daredevil()
+print(twd.personajes)
+print(twd.canal)
+print(twd.genero)
+print(twd.temporadas)
+print(twd.capitulos)
+print(twd.protagonista)
+print(twd.estado)
+
+twd.entretener()
+twd.intrigar()
+twd.divertir()

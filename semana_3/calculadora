@@ -1,0 +1,39 @@
+class Calculadora:
+
+    #atributos#
+    botones=20
+    operaciones=13
+    pantalla=1
+    marca="casio"
+    color="Gris"
+
+
+    #metodos#
+    def calcular(self):
+        print("Hacer operaciones")
+    def jugar(self):
+        print("Hacer frases graciosas")
+
+class Barrilito(Calculadora):
+    #atributos#
+    tapa=1
+    iluminacion="tiene leds"
+
+    #metodo#
+    def sumar(self):
+        print("Realizar sumas")
+
+  
+
+Pelikan=Barrilito()
+print(Pelikan.botones)
+print(Pelikan.operaciones)
+print(Pelikan.pantalla)
+print(Pelikan.marca)
+print(Pelikan.color)
+print(Pelikan.tapa)
+print(Pelikan.iluminacion)
+
+Pelikan.calcular()
+Pelikan.jugar()
+Pelikan.sumar()

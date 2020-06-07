@@ -1,0 +1,27 @@
+class Estudiante:
+  edad= 18
+  grupo= 22
+  materias= 9
+  cuatrimestre= 2
+  aulas= 3
+  
+
+  def escuela(self):
+    print("Universidad")
+  def taller(self):
+    print("Taller deportivo o cultural")
+  def estudiar(self):
+    print("Horas de estudio")
+
+  def __init__(self):
+      print("Estudiante")
+      print(self.edad)
+      print(self.grupo)
+      print(self.materias)
+      print(self.cuatrimestre)
+      print(self.aulas)
+
+objeto=Estudiante()
+objeto.escuela()
+objeto.taller()
+objeto.estudiar()

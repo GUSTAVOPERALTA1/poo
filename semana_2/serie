@@ -1,0 +1,26 @@
+class serie:
+    genero="Comedia"
+    duracion="1:59"
+    transmision="Television"
+    personajes=40
+    vestuario=40
+    capitulos=50
+    temporadas=3
+
+    def transmitir(self):
+        print("En donde se transmite")
+    def entretener(self):
+        print("Ver diario la serie")
+    def __init__(self):
+        print("Los Simpsons")
+        print(self.duracion)
+        print(self.transmision)
+        print(self.personajes)
+        print(self.vestuario)
+        print(self.capitulos)
+        print(self.capitulos)
+        print(self.temporadas)
+
+objeto= serie()
+objeto.transmitir()
+objeto.entretener()

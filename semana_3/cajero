@@ -1,0 +1,37 @@
+class Cajero:
+    #atributos#
+    botones=15
+    color="Gris"
+    pantalla=1
+    camara=1
+    bandejas=2
+
+
+    #metodos#
+    def retirar(self):
+        print("Puedes hacer retiros de efectivo")
+    def consultar(self):
+        print("Puedes consultar tu saldo")
+
+class Bancomer(Cajero):
+    #atributos#
+    velocidad="Rapidos"
+    material="Metal"
+    #metodo#
+    def depositar(self):
+        print("Puedes realizar depositos")
+
+  
+
+Banamex=Bancomer()
+print(Banamex.botones)
+print(Banamex.color)
+print(Banamex.pantalla)
+print(Banamex.camara)
+print(Banamex.bandejas)
+print(Banamex.velocidad)
+print(Banamex.material)
+
+banamex.retirar()
+banamex.consultar()
+banamex.depositar()

@@ -1,0 +1,37 @@
+class Avion:
+
+    #atributos#
+    alas=2
+    alerones=3
+    turbinas=5
+    piloto=2
+    destino="Cancun"
+
+
+    #metodos#
+    def volar(self):
+        print("Este avión es el más rapido del mundo")
+    def aterrizar(self):
+        print("El avión es silencioso cuando aterriza")
+
+class Concorde(Avion):
+    #atributos#
+    velocidad="2.179 km/h"
+    motor="Rolls-Royce/Snecma Olympus 593"
+
+    #metodo#
+    def supersonico(self):
+        print("Concorde fue un avión que podia romper la barrera del sonido")
+
+  
+
+Bell=Concorde()
+print(Bell.alas)
+print(Bell.alerones)
+print(Bell.turbinas)
+print(Bell.piloto)
+print(Bell.destino)
+
+Bell.aterrizar()
+Bell.supersonico()
+Bell.volar()

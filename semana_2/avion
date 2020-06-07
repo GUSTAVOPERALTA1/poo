@@ -1,0 +1,27 @@
+class Avion:
+  alerones=2
+  ventanillas= 100
+  pilotos=2
+  alas=2
+  turbinas=4
+  asafatas=4
+  tren_de_aterrizaje=3
+
+  def vuela(self):
+    print("volar")
+  def aterriza(self):
+    print("aterrizar")
+
+  def __init__(self):
+    print("Avión Presidencial")
+    print(self.alerones)
+    print(self.ventanillas)
+    print(self.pilotos)
+    print(self.alas)
+    print(self.turbinas)
+    print(self.asafatas)
+    print(self.tren_de_aterrizaje)
+
+objeto= Avion()
+objeto.vuela()
+objeto.aterriza()

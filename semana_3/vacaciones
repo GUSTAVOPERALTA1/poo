@@ -1,0 +1,39 @@
+class Vacaciones:
+
+    #atributos#
+    playa="Quintana Roo"
+    maletas=3
+    gasto="$20,000"
+    acompañantes=6
+    clima="Soleado"
+
+
+    #metodos#
+    def nadar(self):
+        print("Nadar")
+    def pescar(self):
+        print("Pesca Deportiva")
+
+class Cancun(Vacaciones):
+    #atributos#
+    hotel="Delfin"
+    sol=1
+
+    #metodo#
+    def bucear(self):
+        print("Buceo")
+
+  
+
+veracruz=Cancun()
+print(veracruz.playa)
+print(veracruz.maletas)
+print(veracruz.gasto)
+print(veracruz.acompañantes)
+print(veracruz.clima)
+print(veracruz.sol)
+print(veracruz.hotel)
+
+veracruz.pescar()
+veracruz.bucear()
+veracruz.nadar()

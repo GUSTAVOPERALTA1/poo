@@ -1,0 +1,34 @@
+class vacaciones:
+   playa=1
+   sol=1
+   chanclas=2
+   traje_de_baño=3
+   arboles=30
+   palmeras=15
+   cocos=45
+   peces=1000
+   piscina=1
+   tobogan=2
+   parque_acuatico=1
+
+   def viaje(self):
+        print("Viajar")
+   def nadar(self):
+        print("Nadar")
+   def __init__(self):
+        print("vacaciones en la playa")
+        print(self.playa)
+        print(self.sol)
+        print(self.chanclas)
+        print(self.traje_de_baño)
+        print(self.arboles)
+        print(self.palmeras)
+        print(self.cocos)
+        print(self.peces)
+        print(self.piscina)
+        print(self.tobogan)
+        print(self.parque_acuatico)
+
+objeto=vacaciones()
+objeto.viaje()
+objeto.nadar()

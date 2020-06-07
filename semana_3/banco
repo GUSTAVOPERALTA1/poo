@@ -1,0 +1,39 @@
+class Banco:
+
+    #atributos#
+    no_cuentas=24
+    oficinas=6
+    cajeros_automaticos=5
+    ventanillas=3
+    sillas=10
+
+
+    #metodos#
+    def pagar(self):
+        print("Pagar")
+    def depositar(self):
+        print("Depositos")
+
+class Azteca(Banco):
+    #atributos#
+    logo_verde="Nuestro logo es color verde"
+    tarjetas="Tenemos tarjetas de credito"
+
+    #metodo#
+    def retirar(self):
+        print("Retira tu dinero aqui")
+
+  
+
+Bancomer=Azteca()
+print(Bancomer.no_cuentas)
+print(Bancomer.oficinas)
+print(Bancomer.cajeros_automaticos)
+print(Bancomer.ventanillas)
+print(Bancomer.sillas)
+print(Bancomer.logo_verde)
+print(Bancomer.tarjetas)
+
+bancomer.pagar()
+bancomer.depositar()
+bancomer.retirar()

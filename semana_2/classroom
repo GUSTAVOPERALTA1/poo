@@ -1,0 +1,27 @@
+class classroom:
+  clases=12
+  alumnos=40
+  tareas=2
+  clases_online=4
+  investigaciones=3
+  profesores=5
+
+  def clases(self):
+    print("Clases online")
+  def aprender(self):
+    print("aprender a larga distancia")
+  def hacer_tareas(self):
+    print("Permite hacer tareas en dispositivos externos y subirlas a la plataforma")
+
+  def __init__(self):
+    print(self.clases)
+    print(self.alumnos)
+    print(self.tareas)
+    print(self.clases_online)
+    print(self.investigaciones)
+    print(self.profesores)
+
+objeto=classroom()
+objeto.clases()
+objeto.aprender()
+objeto.hacer_tareas()

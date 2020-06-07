@@ -1,0 +1,35 @@
+class futbolista:
+    edad=18
+    peso=70
+    altura=1.70
+    seleccion="Mexicana"
+    division="Primera"
+    numero=9
+    posicion="defensa"
+    goles=12
+
+    def correr(self):
+        print("correr")
+    def patear(self):
+        print("Patear el balon")
+    def ganar(self):
+        print("ganar")
+    def competir(self):
+        print("competencia")
+
+    def __init__(self):
+        print("Gustavo Peralta Guzmán")
+        print(self.edad)
+        print(self.peso)
+        print(self.altura)
+        print(self.seleccion)
+        print(self.division)
+        print(self.numero)
+        print(self.posicion)
+        print(self.goles)
+
+objeto= futbolista()
+objeto.correr()
+objeto.patear()
+objeto.ganar()
+objeto.competir()

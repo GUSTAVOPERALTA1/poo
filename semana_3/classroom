@@ -1,0 +1,38 @@
+class Classroom:
+
+    #atributos#
+    tareas="Muchas tareas"
+    maestros=9
+    clases=6
+    materias=9
+    fechas="Fechas de entrega"
+
+    #metodos#
+    def estudiar(self):
+        print("Estudiar para hacer bien los trabajos")
+    def entregar(self):
+        print("Entregar las tareas")
+
+class Guitarra(Classroom):
+    #atributos#
+    guitarra="Usas una guitarra"
+    canciones="Aprendes canciones"
+
+    #metodo#
+    def tocar(self):
+        print("Aprendes a tocar guitarra online")
+
+  
+
+Ingles=Guitarra()
+print(Ingles.tareas)
+print(Ingles.maestros)
+print(Ingles.clases)
+print(Ingles.materias)
+print(Ingles.fechas)
+print(Ingles.guitarra)
+print(Ingles.canciones)
+
+Ingles.estudiar()
+Ingles.entregar()
+Ingles.tocar()
