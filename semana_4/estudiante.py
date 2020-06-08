@@ -24,7 +24,7 @@ class Gustavo(Estudiante):
     def estudiar(self):
         print("Estudio para mis examenes")
     def aprender(self):
-        print("Cada dia aprendo algo nuevo")
+        print("Aprender programacion")
 
 objeto_estudiante=Estudiante()
 objeto_estudiante.estudiar()

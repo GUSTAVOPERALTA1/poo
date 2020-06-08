@@ -25,7 +25,7 @@ class Barrilito(Calculadora):
     def calcular(self):
         print("Hacer operaciones aritmeticas")
     def jugar(self):
-        print("Hacer chistes con una calculadora")
+        print("Hacer chistes con los resultados de la calculadora")
 
 objeto_calculadora=Calculadora()
 objeto_calculadora.calcular()

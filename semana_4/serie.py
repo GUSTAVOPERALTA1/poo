@@ -12,9 +12,9 @@ class Serie:
         print("Serie de TV")
 
     def entretener(self):
-        print("La serie es muy buena")
+        print("La serie entretiene por su trama")
     def intrigar(self):
-        print("La trama es buena")
+        print("La trama te intriga")
 
 class Daredevil(Serie):
     protagonista="Daredevil"
@@ -24,9 +24,9 @@ class Daredevil(Serie):
         print("Constructor Daredevil")
 
     def entretener(self):
-        print("Esta temporada es muy buena")
+        print("Esta temporada es entretenida")
     def intrigar(self):
-        print("¿Que pasara en el siguiente episodio")
+        print("Te intrigan sus episodios")
         
 objeto_serie=Serie()
 objeto_serie.entretener()

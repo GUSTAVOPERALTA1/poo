@@ -14,7 +14,7 @@ class Avion:
         print("El avion vuela muy rapido")
 
     def aterrizar(self):
-        print("El avion acaba de aterrizar")
+        print("El avion usa el tren de aterrizaje")
 
 class Concorde(Avion):
     velocidad="2.179 km/h"

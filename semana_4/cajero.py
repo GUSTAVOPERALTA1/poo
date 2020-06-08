@@ -20,9 +20,9 @@ class Bancomer(Cajero):
     def __init__(self):
         print("Cajeros bancomer")
     def retirar(self):
-        print("Puedes retirar tu dinero")
+        print("Puedes retirar tu dinero, con ticket")
     def consultar(self):
-        print("Consulte su saldo aqui")
+        print("Consulte su saldo aqui, tocando un boton")
 
 objeto_cajero=Cajero()
 objeto_cajero.retirar()

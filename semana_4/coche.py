@@ -10,9 +10,9 @@ class Coche:
     def __init__(self):
         print("Constructor coche")
     def acelerar(self):
-        print("El auto es muy rapido")
+        print("El auto acelera cuando pisas el acelerador")
     def frenar(self):
-        print("Frenar")
+        print("El auto frena cuando pisas el freno")
 
 class Camioneta(Coche):
     #atributos#
@@ -23,9 +23,9 @@ class Camioneta(Coche):
     def __init__(self):
       print("Constructor Camioneta")
     def acelerar(self):
-        print("La camioneta viaja a gran velocidad")
+        print("La camioneta acelera cuando cambias la velocidad")
     def frenar(self):
-        print("Los frenos son muy buenos")
+        print("La camioneta frena con el freno de mano")
 
 objeto_coche=Coche()
 objeto_coche.acelerar()

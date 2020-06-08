@@ -11,10 +11,10 @@ class Banco:
         print("Banco")
 
     def pagar(self):
-        print("Realiza tus pagos aquí")
+        print("Realiza tus pagos aquí, en ventanilla")
 
     def depositar(self):
-        print("Realiza tus depositos aquí")
+        print("Realiza tus depositos aquí, en la ventanilla")
 
         
 class Banamex(Banco):
@@ -24,9 +24,9 @@ class Banamex(Banco):
     def __init__(self):
         print("Constructor Banamex")
     def pagar(self):
-        print("Puedes pagar aqui")
+        print("Puedes pagar aqui, en cajero")
     def depositar(self):
-        print("Banamex, puedes depositar aqui")
+        print("Banamex, puedes depositar aqui, en cajero")
 
 
 objeto_banco=Banco()
