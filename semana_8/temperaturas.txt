@@ -1,0 +1,4 @@
+Su informacion es la siguiente:  {113.0: '06/10/2020', 93.2: '16/09/2020'}
+La temperatura mayor es: (93.2, '16/09/2020')
+Promedio centigrados:39.5
+Promedio fahrenheit: 103.1
